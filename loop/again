@@ -1,0 +1,16 @@
+
+a =int(input("enter a number : "))
+
+def add5():
+   global a
+a=a+5
+print(a)
+  
+sol =print("Do you want to add 5 again?")
+sol_2= (input("1.yes 2.no : "))
+if sol_2 == "1" or  sol_2== "yes":
+        add5()
+else:
+       print ("Bye, thanks for coming")
+add5()
+
